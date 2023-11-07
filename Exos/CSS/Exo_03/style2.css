@@ -1,0 +1,42 @@
+body {
+    background-color: #89df8d;
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+    top:5px;
+    left:5px;
+    width: 96vw;
+    height: 95vh;
+}
+
+
+main {
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    width: 41vw;
+    height: 30vh;
+    top:500px;
+    left:550px;
+    background-color: black;
+}
+
+
+section {
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    width: 15vw;
+    height: 30vh;
+    top:50px;
+    left:1050px;
+    background-color: black;
+}
+
+
+div {
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    width: 15vw;
+    height: 30vh;
+    top:50px;
+    left:550px;
+    background-color: black;
+}

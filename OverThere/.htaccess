@@ -1,0 +1,6 @@
+AuthUserFile .htpasswd
+AuthGroupFile /dev/null
+AuthName Administration
+AuthType Basic
+ 
+require user jesse

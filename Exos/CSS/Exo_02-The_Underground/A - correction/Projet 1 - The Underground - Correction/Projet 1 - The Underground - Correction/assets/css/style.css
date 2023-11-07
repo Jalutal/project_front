@@ -1,0 +1,114 @@
+/* JE DEMARRE PAR LES @REGLES CSS */
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+/* PUIS JE METS LE CSS GLOBAL  */
+body {
+    font-family: "Roboto Regular";
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#banner {
+    background-image: url(../img/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 9rem 0;
+    color: white;
+    text-align: center;
+}
+
+#banner h1 {
+    font-family: "Roboto Bold";
+    font-size: 50px;
+    margin: 0;
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+    /* display: inline-block; */
+}
+
+.btn.btn-primary {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.btn.btn-primary:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.btn.btn-secondary {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.btn.btn-secondary:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+/* SECTION => VENEZ NOUS RENCONTRER */
+
+#rencontrer {
+    padding: 3% 0%;
+    text-align: center;
+}
+
+#rencontrer h2 {
+    font-family: "Roboto Bold";
+    font-weight: 700;
+    font-size: 3.40rem;
+    margin: 0;
+}
+
+#rencontrer p {
+    width: 85%;
+    margin: 0 auto;
+    color: #888888;
+    line-height: 2rem;
+
+    margin-top: 1.5rem;
+}
+
+/* SECTION => PRE-FOOTER */
+
+#pre-footer {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+/* END OF SITE || FOOTER */
+
+footer {
+    background-color: #2B2E31;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,12 @@
+@mixin page01Bg {
+    background-image: url(../img/building.jpeg);    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+    text-align: center;
+    font-size: 30px;    
+    display: flex;    
+    justify-content: end;
+    align-items: center; 
+    color: white;   
+}

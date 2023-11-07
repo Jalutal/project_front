@@ -1,0 +1,10 @@
+@import 'partials/variables';
+@import 'partials/mixin';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/body';
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}

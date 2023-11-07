@@ -1,0 +1,16 @@
+.page01 {    
+    height: $height;    
+    @include page01Bg;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.page01flex {
+    display: flex;
+    justify-content: end;
+}
+.co {
+    border: 1px solid white;
+}

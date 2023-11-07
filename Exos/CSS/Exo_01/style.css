@@ -1,0 +1,23 @@
+body>ul>li:first-child {
+    text-decoration: underline;
+}
+
+body>ul>li:nth-child(3) {
+    background-color: green;
+}
+
+body>ul>li>ul>li:nth-child(3) { 
+    color: blue;
+    list-style-type: none;
+/* ul>li:last-child>ul>li:last-child
+*/
+
+}
+
+ul>li:nth-child(4)>ul {
+    background-color: brown;
+}
+/* ul>li-last-child ul {              En mettant last on garde le dernier chiffre à chaque fois
+    Background-color: brown
+}
+*/

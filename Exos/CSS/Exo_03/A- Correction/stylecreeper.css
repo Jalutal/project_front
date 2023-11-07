@@ -1,0 +1,35 @@
+.head{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    position:relative;
+    left: calc(50% - 100px);
+}
+
+.lefteye{
+    position:absolute;
+    top:50px;
+    left:25%;
+    height:35px;
+    width: 35px;
+    background-color:black;
+}
+
+.righteye{
+    position:absolute;
+    top:50px;
+    right:25%;
+    height:35px;
+    width: 35px;
+    background-color:black;
+}
+
+.mouth{
+    height: 50px;
+    width: 50%;
+    bottom: 20%;
+    left: 25%;
+    background-color: black;
+    position: absolute;
+}
