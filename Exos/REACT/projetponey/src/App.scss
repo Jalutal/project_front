@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header01 {
+  text-align: center;
+}
+
+.imgHeader {
+  width: 100px;
+}
+
+.ulHeader01 {
+  display: flex;   
+  list-style-type: none;
+  gap: 15px ;
+  justify-content: center;
+  align-items: center;
+}
+
+.ulHeader02 {
+  display: flex;   
+  list-style-type: none;  
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.ulHeader03 {     
+  list-style-type: none; 
+  padding: 20px;
+  text-align: center;
+}
+
+.liHeader01 {
+  background-color: antiquewhite;
+  
+}
+
+.hHeader01 {
+  background-color: antiquewhite;
+  width: 25%;
+  margin: auto;
+  text-align: center; 
+}
+
+.header01 {
+  background-image: url('https://www.classequine.com/wp-content/uploads/2018/06/cheval-tousse-fb.jpg');
+  background-size: contain;
+  position: sticky;
+  top: 0px;
+}
+
+
+
+.mainOrigin {
+  background-size: contain;
+  background-image: url('https://risibank.fr/cache/medias/0/23/2304/230450/full.png');  
+  background-attachment: fixed;
+}
+
+.mainOrigin article {
+  background-color: pink;
+  width: 25%;
+  margin: auto;
+  text-align: center;   
+  position: sticky;
+  top: 130px;
+}
+
+.mainOrigin img {
+  max-width: 40%;
+}
+
+.mainContact {
+  background-size: contain;
+  background-image: url('https://risibank.fr/cache/medias/0/23/2304/230450/full.png');  
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+.mainContact article {
+  background-color: pink;
+  width: 25%;
+  margin: auto;
+  text-align: center;   
+  position: sticky;
+  top: 130px;
+}
+
+.mainContact img {
+  max-width: 40%;
+}
+
+.footerOrigin p {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.contactName {
+  text-align: center;  
+  background-color: bisque;
+}
+
+.profilName {
+  text-align: center;  
+  background-color: bisque;
+}
+
+.articlesName {
+  text-align: center;  
+  background-color: bisque;
+}
+
+.imgStory {
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
