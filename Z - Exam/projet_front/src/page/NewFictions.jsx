@@ -4,49 +4,45 @@ import Header from "../component/Header";
 import FictionsMain from "./FictionsMain";
 
 const NewFictions = () => {
-  const [fictionNames, setFictionNames] = useState(null);
+    const [fictions, setFictions] = useState(null);
 
-  useEffect(() => {
-    const fetchFictionNames = async () => {
-      try {
+    useEffect(() => {
+      (async () => {
         const fictionsResponse = await fetch("http://localhost:3000/api/fanfics");
+  
         const fictionsResponseData = await fictionsResponse.json();
-        setFictionNames(fictionsResponseData);
-      } catch (error) {
-        console.error('Erreur lors de la récupération des noms de fiction:', error);
-      }
-    };
-
-    fetchFictionNames();
-  }, []);
+  
+        setFictions(fictionsResponseData);
+      })();
+    }, []);
+  
 
   return (
     <body>
       <main>
         <div className="main_rectangle">
           <Header />
-          <div className="content-container"> {/* Ajout de la classe pour le flex */}
+          <div className="content-container">
             <section>
               <h1>Liste des Fictions:</h1>
               <ul>
-              {fictionNames ? (
-  <>
-    {fictionNames.map((fictionName, index) => (
-  <Link to={`/newfic/details/${fictionName.id}`} key={index}>
-    <p>{fictionName.fictionname}</p>
-  </Link>
-))}
-
-  </>
-) : (
-  <p>En cours de chargement</p>
-)}
-
+              {fictions ? (
+        <>  
+          {fictions.map((fiction) => {
+            return (
+              <article>
+                <Link to={`/newfic/details/${fiction.id}`}>
+                <h4>{fiction.fictionname}</h4></Link>
+              </article>
+            );
+          })}
+        </>
+      ) : (
+        <p>En cours de chargement</p>
+      )}
               </ul>
             </section>
-            <div>
-              <FictionsMain />
-            </div>
+            
           </div>
         </div>
       </main>

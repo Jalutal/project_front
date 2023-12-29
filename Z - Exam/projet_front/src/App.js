@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/newfic/details/:id" component={<FictionsMain />} />
+        <Route path="/newfic/details/:id" element={<FictionsMain />} />
         <Route path="/newfic" element={<NewFictions />} />
         
 
